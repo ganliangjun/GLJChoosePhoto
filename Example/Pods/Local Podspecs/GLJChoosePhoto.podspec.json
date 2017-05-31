@@ -1,0 +1,27 @@
+{
+  "name": "GLJChoosePhoto",
+  "version": "0.0.1",
+  "summary": "GLJChoosePhoto",
+  "description": "TODO: GLJChoosePhoto。。。。。。.",
+  "homepage": "https://github.com/ganliangjun/GLJChoosePhoto",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "970721775@qq.com": "970721775@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/ganliangjun/GLJChoosePhoto.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "GLJChoosePhoto/Classes/**/*",
+  "resource_bundles": {
+    "GLJChoosePhoto": [
+      "GLJChoosePhoto/Assets/*.png"
+    ]
+  }
+}

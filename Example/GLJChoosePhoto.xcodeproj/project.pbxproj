@@ -40,7 +40,7 @@
 		0839BFEE5C5D18687C53F816 /* Pods_GLJChoosePhoto_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GLJChoosePhoto_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E3023820F08A1BD2F0733C3 /* Pods_GLJChoosePhoto_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GLJChoosePhoto_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5599D7C66DD8AEB29A5FABE1 /* Pods-GLJChoosePhoto_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GLJChoosePhoto_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GLJChoosePhoto_Tests/Pods-GLJChoosePhoto_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		5DF3B9D929C0193D8E722FAC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		5DF3B9D929C0193D8E722FAC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* GLJChoosePhoto_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GLJChoosePhoto_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,10 +63,10 @@
 		609D9C45498F8BB638C7F25D /* Pods-GLJChoosePhoto_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GLJChoosePhoto_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-GLJChoosePhoto_Example/Pods-GLJChoosePhoto_Example.release.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A151DA22AD50C5E925AD9249 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A151DA22AD50C5E925AD9249 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B45757874F32DD95D4DD119D /* Pods-GLJChoosePhoto_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GLJChoosePhoto_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GLJChoosePhoto_Tests/Pods-GLJChoosePhoto_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E4BEC8C4B7AAA744D6448EC2 /* Pods-GLJChoosePhoto_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GLJChoosePhoto_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GLJChoosePhoto_Example/Pods-GLJChoosePhoto_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		FFE627C78C712D388FC29CD5 /* GLJChoosePhoto.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = GLJChoosePhoto.podspec; path = ../GLJChoosePhoto.podspec; sourceTree = "<group>"; };
+		FFE627C78C712D388FC29CD5 /* GLJChoosePhoto.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GLJChoosePhoto.podspec; path = ../GLJChoosePhoto.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

@@ -1,0 +1,6 @@
+framework module Pods_GLJChoosePhoto_Example {
+  umbrella header "Pods-GLJChoosePhoto_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

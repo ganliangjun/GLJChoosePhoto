@@ -1,0 +1,6 @@
+framework module GLJChoosePhoto {
+  umbrella header "GLJChoosePhoto-umbrella.h"
+
+  export *
+  module * { export * }
+}

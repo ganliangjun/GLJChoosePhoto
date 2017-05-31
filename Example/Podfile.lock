@@ -1,0 +1,16 @@
+PODS:
+  - GLJChoosePhoto (0.0.1)
+
+DEPENDENCIES:
+  - GLJChoosePhoto (from `../`)
+
+EXTERNAL SOURCES:
+  GLJChoosePhoto:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GLJChoosePhoto: 1bd4de2b688232f238d3f95f70ed7906a6157901
+
+PODFILE CHECKSUM: e5e8a3cee5ce86bc18b5bd1756e2a7f8d0b5ef9a
+
+COCOAPODS: 1.2.0

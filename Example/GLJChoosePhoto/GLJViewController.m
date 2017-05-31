@@ -7,6 +7,8 @@
 //
 
 #import "GLJViewController.h"
+#import "GLJChoosePhotoManagerTool.h"
+
 
 @interface GLJViewController ()
 
@@ -17,7 +19,21 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
 	// Do any additional setup after loading the view, typically from a nib.
+}
+
+
+- (IBAction)jump:(UIButton *)sender {
+    
+    GLJChoosePhotoManagerTool *tool = [GLJChoosePhotoManagerTool shareChoosePhotoManagerTool];
+    [tool showChoosePhotoVCWithVC:self WithType:GLJChoosePhotoShowType_present andBackPhotoBlock:^{
+        
+        
+        
+    }];
+
+    
 }
 
 - (void)didReceiveMemoryWarning

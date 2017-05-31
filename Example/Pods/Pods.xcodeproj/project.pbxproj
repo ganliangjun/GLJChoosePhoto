@@ -1,0 +1,975 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		085EC60B374AB1F1C53B7ECAE200C240 /* GLJBigPhotoCollentionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 826BE40894D048653675CA07782BB747 /* GLJBigPhotoCollentionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B6BAD8476F1C44C1F5C99D0EEA40809 /* icon_xuanzhong@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD00B83B84AA3C19745D10682298F971 /* icon_xuanzhong@2x.png */; };
+		1F4444EA279DD4472841DD4C2E6688CD /* icon_xuanzhong.png in Resources */ = {isa = PBXBuildFile; fileRef = 573FFCA9F3570A68727DFA585F7B0A83 /* icon_xuanzhong.png */; };
+		241F632032EAE846A1F044BC63E161E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		2922626DA46371D6C99C99E44703B136 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		324BA8707CAC55D0D42B88A9250E17B7 /* GLJPhotoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF75B69A16BF0FF818476165002387C /* GLJPhotoModel.m */; };
+		34BA61E7E5252AE2D84736E22ABDEBEC /* GLJChoosePhoto-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BDDBA70026433271D5A95703249D5841 /* GLJChoosePhoto-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36158B8474F096435845C96A10260E19 /* icon_paizhao@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27723216EF3F1D138E3F8960CCBF45F5 /* icon_paizhao@2x.png */; };
+		3904DFCB2F9B255D4A5687BF5160033A /* GLJPhottoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA5DE6023FB0092DA30F654E4A7AFAA /* GLJPhottoCell.m */; };
+		3DC689B0EB9ED82CEA0DBF7676748C22 /* icon_daixuan@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F28B064BB59D128E6CAD2FA5B99DB81 /* icon_daixuan@3x.png */; };
+		3F8C92EA7A9298002BC5950087BA3A95 /* GLJChoosePhotoViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E8400FFB4C118E09C62D995528D12E1 /* GLJChoosePhotoViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A9ED316B9BCCEE870758401EFC46D1B /* Pods-GLJChoosePhoto_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 666C6523EEF24D76820DBDDDA6A2EEBB /* Pods-GLJChoosePhoto_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B43EA677B4C532A69147ECDC5F5DFC1 /* Pods-GLJChoosePhoto_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 44ED92593A1DE80A5B98A620B9E19E76 /* Pods-GLJChoosePhoto_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D2A9140E866E3FD61332632FBE79DA8 /* icon_xuanzhong@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF828B99E18930D141DC0129932D8E15 /* icon_xuanzhong@3x.png */; };
+		67B414A42DF26227D1FC21DD126AA4D8 /* Pods-GLJChoosePhoto_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A348F6F26386C199256DD669433601 /* Pods-GLJChoosePhoto_Example-dummy.m */; };
+		6FB0DAFF1826E0DE0F9887180A31BB1D /* icon_paizhao@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D6EC081718AB75607F08DDC9B5FDCCC2 /* icon_paizhao@3x.png */; };
+		85118269168D78EF7583D43046CC5530 /* back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 265CDBEF196048378E613FBADDF2FAEB /* back@3x.png */; };
+		9286630D8D4E250911B8D0EEB8A2756F /* GLJChoosePhotoViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = BC50500CD48E68F0E16B673493806ED5 /* GLJChoosePhotoViewController.xib */; };
+		9A42BC0CBA0B307C785EA132ADFE1E9E /* icon_daixuan@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 688E9A0368748D8CA75DEB1045A31E1D /* icon_daixuan@2x.png */; };
+		9F346A639405F4D1188E68B1746B6D99 /* GLJChoosePhoto-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C4685A278C0CA8E981B8C00943CB9A /* GLJChoosePhoto-dummy.m */; };
+		A977561B26FF1619116F05F477A676E5 /* GLJChoosePhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95ADC3B46399E86EA4095DAE0F69EE3A /* GLJChoosePhotoViewController.m */; };
+		AD6FEBFACEC2F3A35127BBD1E904BD67 /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C9375E3520B854DA2699B0D6B572524 /* back@2x.png */; };
+		B2721D190038DCB1D4B5699D5EAEC692 /* GLJPhottoCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 58714386B087707885852621C5EB92D1 /* GLJPhottoCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9D30394CF9F65879DFCC0C43BFB8CBD /* GLJChoosePhotoManagerTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 43841D8FEDFC1CCD98E6A99F68EABFB3 /* GLJChoosePhotoManagerTool.m */; };
+		BCB51D229DFFB46428C06124E571E44D /* GLJPhotoModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F49F1ACE87326E4E64970DFCC3428BE /* GLJPhotoModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA3E969ABAF3B07CC480950B3A26882B /* GLJChoosePhoto.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BAA97200584BE608EBDBAD90CE68458F /* GLJChoosePhoto.bundle */; };
+		E17D9B36B770FB53A87115D97D77FC54 /* icon_paizhao.png in Resources */ = {isa = PBXBuildFile; fileRef = BE2A1DF0E70B7206657866C4A289A14D /* icon_paizhao.png */; };
+		E69E985BE9F3D45EAC0AD6D9B1D7A765 /* Pods-GLJChoosePhoto_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3628ED33DBB94AF5BB90297E36322D5 /* Pods-GLJChoosePhoto_Tests-dummy.m */; };
+		E771A7EAB57C93BE76A914AB5F12E469 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A6ED2DAFEC2AEE91438689106A0517F /* back.png */; };
+		F0143338ACC2BC6BD283417EB86474A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		F44FB584330B3F948F5634160BFE5E30 /* GLJBigPhotoCollentionView.m in Sources */ = {isa = PBXBuildFile; fileRef = B8C2F59B4A39407E423D4DFE2FF1FC3C /* GLJBigPhotoCollentionView.m */; };
+		FB43CEC79BBC04C40AE0229F28996774 /* GLJChoosePhotoManagerTool.h in Headers */ = {isa = PBXBuildFile; fileRef = D2A8370C5D03BB6D6173A3E29C91D9A0 /* GLJChoosePhotoManagerTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE7295604A11CCC5F7DFCF2CB114DCFC /* icon_daixuan.png in Resources */ = {isa = PBXBuildFile; fileRef = A995A35B416410E17A608F17F054314B /* icon_daixuan.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1217EB0FA6C0AD2FB4E05EF6D988C282 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2748AD41D860F6AE516A88977C35F666;
+			remoteInfo = "GLJChoosePhoto-GLJChoosePhoto";
+		};
+		78296CFFA1C3DDCAD3FF505FF82F3BB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7174CE74C1880782D91CCE649A6E35E8;
+			remoteInfo = GLJChoosePhoto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		013572A624EEC33BDFDD8715F72A2CDF /* Pods-GLJChoosePhoto_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GLJChoosePhoto_Example-resources.sh"; sourceTree = "<group>"; };
+		0A6ED2DAFEC2AEE91438689106A0517F /* back.png */ = {isa = PBXFileReference; includeInIndex = 1; path = back.png; sourceTree = "<group>"; };
+		12BD0D9D39728F60CA5ABAB52D67D5F7 /* Pods_GLJChoosePhoto_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GLJChoosePhoto_Tests.framework; path = "Pods-GLJChoosePhoto_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13A9A5A94955DFFB194EE158AD34E46F /* Pods-GLJChoosePhoto_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GLJChoosePhoto_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1CA5DE6023FB0092DA30F654E4A7AFAA /* GLJPhottoCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GLJPhottoCell.m; sourceTree = "<group>"; };
+		1DC3C14D3442663B52C92734FF83C068 /* Pods-GLJChoosePhoto_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GLJChoosePhoto_Example.modulemap"; sourceTree = "<group>"; };
+		265CDBEF196048378E613FBADDF2FAEB /* back@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "back@3x.png"; sourceTree = "<group>"; };
+		27723216EF3F1D138E3F8960CCBF45F5 /* icon_paizhao@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "icon_paizhao@2x.png"; sourceTree = "<group>"; };
+		2EF75B69A16BF0FF818476165002387C /* GLJPhotoModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GLJPhotoModel.m; sourceTree = "<group>"; };
+		2F8335203E9D8A907E8A98D52A81A84C /* Pods-GLJChoosePhoto_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GLJChoosePhoto_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3752FC8D2D755989D3ED63AB484975BE /* GLJChoosePhoto-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GLJChoosePhoto-prefix.pch"; sourceTree = "<group>"; };
+		43841D8FEDFC1CCD98E6A99F68EABFB3 /* GLJChoosePhotoManagerTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GLJChoosePhotoManagerTool.m; sourceTree = "<group>"; };
+		44ED92593A1DE80A5B98A620B9E19E76 /* Pods-GLJChoosePhoto_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GLJChoosePhoto_Example-umbrella.h"; sourceTree = "<group>"; };
+		4C9375E3520B854DA2699B0D6B572524 /* back@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "back@2x.png"; sourceTree = "<group>"; };
+		52BF889BB9102171365A0EF0548F6BF6 /* Pods-GLJChoosePhoto_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GLJChoosePhoto_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		573FFCA9F3570A68727DFA585F7B0A83 /* icon_xuanzhong.png */ = {isa = PBXFileReference; includeInIndex = 1; path = icon_xuanzhong.png; sourceTree = "<group>"; };
+		58714386B087707885852621C5EB92D1 /* GLJPhottoCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GLJPhottoCell.h; sourceTree = "<group>"; };
+		5F28B064BB59D128E6CAD2FA5B99DB81 /* icon_daixuan@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "icon_daixuan@3x.png"; sourceTree = "<group>"; };
+		5F49F1ACE87326E4E64970DFCC3428BE /* GLJPhotoModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GLJPhotoModel.h; sourceTree = "<group>"; };
+		60C562C2C3482084DD30B1BCBD0EF484 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		636DFC2744283C039C9A0BF1A80CCF8F /* Pods-GLJChoosePhoto_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GLJChoosePhoto_Example-frameworks.sh"; sourceTree = "<group>"; };
+		666C6523EEF24D76820DBDDDA6A2EEBB /* Pods-GLJChoosePhoto_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GLJChoosePhoto_Tests-umbrella.h"; sourceTree = "<group>"; };
+		688E9A0368748D8CA75DEB1045A31E1D /* icon_daixuan@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "icon_daixuan@2x.png"; sourceTree = "<group>"; };
+		6A1E2FB4E72F635A025D50641245C662 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73C4685A278C0CA8E981B8C00943CB9A /* GLJChoosePhoto-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GLJChoosePhoto-dummy.m"; sourceTree = "<group>"; };
+		744BD36EDE8CADABAF5E92721397FBD1 /* Pods-GLJChoosePhoto_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GLJChoosePhoto_Tests-resources.sh"; sourceTree = "<group>"; };
+		759CBE4E7EDBA49826AFAD396906A205 /* Pods-GLJChoosePhoto_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GLJChoosePhoto_Example.release.xcconfig"; sourceTree = "<group>"; };
+		76CF91874B88950592295F532B31B01D /* GLJChoosePhoto.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GLJChoosePhoto.modulemap; sourceTree = "<group>"; };
+		7ACE195C10A74B76C2477B652EA28FB0 /* Pods-GLJChoosePhoto_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GLJChoosePhoto_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7AE242933411EB3EC554E534F208EE21 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E8400FFB4C118E09C62D995528D12E1 /* GLJChoosePhotoViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GLJChoosePhotoViewController.h; sourceTree = "<group>"; };
+		826BE40894D048653675CA07782BB747 /* GLJBigPhotoCollentionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GLJBigPhotoCollentionView.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95ADC3B46399E86EA4095DAE0F69EE3A /* GLJChoosePhotoViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GLJChoosePhotoViewController.m; sourceTree = "<group>"; };
+		97A57AB3009D11E3E1C928D8EAFC8383 /* Pods-GLJChoosePhoto_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GLJChoosePhoto_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A209AD5E24D1B30473F657BAF1BEAB09 /* GLJChoosePhoto.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GLJChoosePhoto.xcconfig; sourceTree = "<group>"; };
+		A4A348F6F26386C199256DD669433601 /* Pods-GLJChoosePhoto_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GLJChoosePhoto_Example-dummy.m"; sourceTree = "<group>"; };
+		A81DF945FD1972A148CCC0F2D0EC6513 /* Pods_GLJChoosePhoto_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GLJChoosePhoto_Example.framework; path = "Pods-GLJChoosePhoto_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8CD1B6B1B449747068A2168ED50B3B9 /* Pods-GLJChoosePhoto_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GLJChoosePhoto_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		A995A35B416410E17A608F17F054314B /* icon_daixuan.png */ = {isa = PBXFileReference; includeInIndex = 1; path = icon_daixuan.png; sourceTree = "<group>"; };
+		B8C2F59B4A39407E423D4DFE2FF1FC3C /* GLJBigPhotoCollentionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GLJBigPhotoCollentionView.m; sourceTree = "<group>"; };
+		B9D02F331C6B477CF168475484BA4C19 /* Pods-GLJChoosePhoto_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GLJChoosePhoto_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		BAA97200584BE608EBDBAD90CE68458F /* GLJChoosePhoto.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = GLJChoosePhoto.bundle; path = GLJChoosePhoto.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC50500CD48E68F0E16B673493806ED5 /* GLJChoosePhotoViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = GLJChoosePhotoViewController.xib; sourceTree = "<group>"; };
+		BDDBA70026433271D5A95703249D5841 /* GLJChoosePhoto-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GLJChoosePhoto-umbrella.h"; sourceTree = "<group>"; };
+		BE2A1DF0E70B7206657866C4A289A14D /* icon_paizhao.png */ = {isa = PBXFileReference; includeInIndex = 1; path = icon_paizhao.png; sourceTree = "<group>"; };
+		C0DD2AB7291315BF8CE9D5F4F237F9A1 /* GLJChoosePhoto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GLJChoosePhoto.framework; path = GLJChoosePhoto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3628ED33DBB94AF5BB90297E36322D5 /* Pods-GLJChoosePhoto_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GLJChoosePhoto_Tests-dummy.m"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CD00B83B84AA3C19745D10682298F971 /* icon_xuanzhong@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "icon_xuanzhong@2x.png"; sourceTree = "<group>"; };
+		D2A8370C5D03BB6D6173A3E29C91D9A0 /* GLJChoosePhotoManagerTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GLJChoosePhotoManagerTool.h; sourceTree = "<group>"; };
+		D6EC081718AB75607F08DDC9B5FDCCC2 /* icon_paizhao@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "icon_paizhao@3x.png"; sourceTree = "<group>"; };
+		E3378C530C15A8CE9F9846B1F313F9AE /* Pods-GLJChoosePhoto_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GLJChoosePhoto_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EF828B99E18930D141DC0129932D8E15 /* icon_xuanzhong@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "icon_xuanzhong@3x.png"; sourceTree = "<group>"; };
+		F0D089BCFBE014E8C9160232B826CDDB /* Pods-GLJChoosePhoto_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GLJChoosePhoto_Tests.modulemap"; sourceTree = "<group>"; };
+		FFBF0B2B3ED01B6F74CFC7CA830E9080 /* ResourceBundle-GLJChoosePhoto-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-GLJChoosePhoto-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C0B661C99853E6535E91E40A8720008 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				241F632032EAE846A1F044BC63E161E6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2234D244E3895CF30DEC1DC370FE8730 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0143338ACC2BC6BD283417EB86474A7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		852280DF818DB442757CBEB41D656EF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2922626DA46371D6C99C99E44703B136 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D4B87BB20DC183413C1008DA34BA38C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		069DF6A79CB246AF17EFE6726989DCAA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				826BE40894D048653675CA07782BB747 /* GLJBigPhotoCollentionView.h */,
+				B8C2F59B4A39407E423D4DFE2FF1FC3C /* GLJBigPhotoCollentionView.m */,
+				58714386B087707885852621C5EB92D1 /* GLJPhottoCell.h */,
+				1CA5DE6023FB0092DA30F654E4A7AFAA /* GLJPhottoCell.m */,
+			);
+			name = Views;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0967DECFBEB60AFF95A47DA0F8F17099 /* GLJChoosePhoto */ = {
+			isa = PBXGroup;
+			children = (
+				54D42063A547F2F9035B72955D70769E /* Classes */,
+			);
+			name = GLJChoosePhoto;
+			path = GLJChoosePhoto;
+			sourceTree = "<group>";
+		};
+		0D2D2EE3C696014196EDB59895E32651 /* Pods-GLJChoosePhoto_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				60C562C2C3482084DD30B1BCBD0EF484 /* Info.plist */,
+				F0D089BCFBE014E8C9160232B826CDDB /* Pods-GLJChoosePhoto_Tests.modulemap */,
+				2F8335203E9D8A907E8A98D52A81A84C /* Pods-GLJChoosePhoto_Tests-acknowledgements.markdown */,
+				E3378C530C15A8CE9F9846B1F313F9AE /* Pods-GLJChoosePhoto_Tests-acknowledgements.plist */,
+				C3628ED33DBB94AF5BB90297E36322D5 /* Pods-GLJChoosePhoto_Tests-dummy.m */,
+				A8CD1B6B1B449747068A2168ED50B3B9 /* Pods-GLJChoosePhoto_Tests-frameworks.sh */,
+				744BD36EDE8CADABAF5E92721397FBD1 /* Pods-GLJChoosePhoto_Tests-resources.sh */,
+				666C6523EEF24D76820DBDDDA6A2EEBB /* Pods-GLJChoosePhoto_Tests-umbrella.h */,
+				52BF889BB9102171365A0EF0548F6BF6 /* Pods-GLJChoosePhoto_Tests.debug.xcconfig */,
+				B9D02F331C6B477CF168475484BA4C19 /* Pods-GLJChoosePhoto_Tests.release.xcconfig */,
+			);
+			name = "Pods-GLJChoosePhoto_Tests";
+			path = "Target Support Files/Pods-GLJChoosePhoto_Tests";
+			sourceTree = "<group>";
+		};
+		32BE9AF7A6974AEDADC0BEBE5E4B3884 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DA110450BB61521A92E03BC04CD08B7C /* GLJChoosePhoto */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		350097A33E95D5A1C2EACE98EAF1E4F6 /* GLJChoosePhoto */ = {
+			isa = PBXGroup;
+			children = (
+				9877C740CD5157EC3A39979E85FC5DE3 /* Assets */,
+			);
+			name = GLJChoosePhoto;
+			path = GLJChoosePhoto;
+			sourceTree = "<group>";
+		};
+		3D2E20D4032DB6F1DB5A799157F85388 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD55A5D1E0B3D3EF3FFAED5BE423B83A /* Pods-GLJChoosePhoto_Example */,
+				0D2D2EE3C696014196EDB59895E32651 /* Pods-GLJChoosePhoto_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		54D42063A547F2F9035B72955D70769E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B290B43FAFABAD66E0216CA1EFBC3023 /* choosePhoto */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		5D2437F0384538EC37091E76DBAC77BF /* choosePhotoTool */ = {
+			isa = PBXGroup;
+			children = (
+				D2A8370C5D03BB6D6173A3E29C91D9A0 /* GLJChoosePhotoManagerTool.h */,
+				43841D8FEDFC1CCD98E6A99F68EABFB3 /* GLJChoosePhotoManagerTool.m */,
+			);
+			name = choosePhotoTool;
+			path = choosePhotoTool;
+			sourceTree = "<group>";
+		};
+		663B5951D90D0DB88A23645F34CDDCF5 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				5F49F1ACE87326E4E64970DFCC3428BE /* GLJPhotoModel.h */,
+				2EF75B69A16BF0FF818476165002387C /* GLJPhotoModel.m */,
+			);
+			name = models;
+			path = models;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				32BE9AF7A6974AEDADC0BEBE5E4B3884 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				C518C494C41CD0A55CCA773A1D82CDCA /* Products */,
+				3D2E20D4032DB6F1DB5A799157F85388 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		92D0BCDFCF18BD984E3D897F84B7E35A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				76CF91874B88950592295F532B31B01D /* GLJChoosePhoto.modulemap */,
+				A209AD5E24D1B30473F657BAF1BEAB09 /* GLJChoosePhoto.xcconfig */,
+				73C4685A278C0CA8E981B8C00943CB9A /* GLJChoosePhoto-dummy.m */,
+				3752FC8D2D755989D3ED63AB484975BE /* GLJChoosePhoto-prefix.pch */,
+				BDDBA70026433271D5A95703249D5841 /* GLJChoosePhoto-umbrella.h */,
+				7AE242933411EB3EC554E534F208EE21 /* Info.plist */,
+				FFBF0B2B3ED01B6F74CFC7CA830E9080 /* ResourceBundle-GLJChoosePhoto-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GLJChoosePhoto";
+			sourceTree = "<group>";
+		};
+		9877C740CD5157EC3A39979E85FC5DE3 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				0A6ED2DAFEC2AEE91438689106A0517F /* back.png */,
+				4C9375E3520B854DA2699B0D6B572524 /* back@2x.png */,
+				265CDBEF196048378E613FBADDF2FAEB /* back@3x.png */,
+				A995A35B416410E17A608F17F054314B /* icon_daixuan.png */,
+				688E9A0368748D8CA75DEB1045A31E1D /* icon_daixuan@2x.png */,
+				5F28B064BB59D128E6CAD2FA5B99DB81 /* icon_daixuan@3x.png */,
+				BE2A1DF0E70B7206657866C4A289A14D /* icon_paizhao.png */,
+				27723216EF3F1D138E3F8960CCBF45F5 /* icon_paizhao@2x.png */,
+				D6EC081718AB75607F08DDC9B5FDCCC2 /* icon_paizhao@3x.png */,
+				573FFCA9F3570A68727DFA585F7B0A83 /* icon_xuanzhong.png */,
+				CD00B83B84AA3C19745D10682298F971 /* icon_xuanzhong@2x.png */,
+				EF828B99E18930D141DC0129932D8E15 /* icon_xuanzhong@3x.png */,
+			);
+			name = Assets;
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		B290B43FAFABAD66E0216CA1EFBC3023 /* choosePhoto */ = {
+			isa = PBXGroup;
+			children = (
+				5D2437F0384538EC37091E76DBAC77BF /* choosePhotoTool */,
+				663B5951D90D0DB88A23645F34CDDCF5 /* models */,
+				C2723489E97B5EDF645785C6C93EEF27 /* viewController */,
+				069DF6A79CB246AF17EFE6726989DCAA /* Views */,
+			);
+			name = choosePhoto;
+			path = choosePhoto;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2723489E97B5EDF645785C6C93EEF27 /* viewController */ = {
+			isa = PBXGroup;
+			children = (
+				7E8400FFB4C118E09C62D995528D12E1 /* GLJChoosePhotoViewController.h */,
+				95ADC3B46399E86EA4095DAE0F69EE3A /* GLJChoosePhotoViewController.m */,
+				BC50500CD48E68F0E16B673493806ED5 /* GLJChoosePhotoViewController.xib */,
+			);
+			name = viewController;
+			path = viewController;
+			sourceTree = "<group>";
+		};
+		C518C494C41CD0A55CCA773A1D82CDCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAA97200584BE608EBDBAD90CE68458F /* GLJChoosePhoto.bundle */,
+				C0DD2AB7291315BF8CE9D5F4F237F9A1 /* GLJChoosePhoto.framework */,
+				A81DF945FD1972A148CCC0F2D0EC6513 /* Pods_GLJChoosePhoto_Example.framework */,
+				12BD0D9D39728F60CA5ABAB52D67D5F7 /* Pods_GLJChoosePhoto_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD55A5D1E0B3D3EF3FFAED5BE423B83A /* Pods-GLJChoosePhoto_Example */ = {
+			isa = PBXGroup;
+			children = (
+				6A1E2FB4E72F635A025D50641245C662 /* Info.plist */,
+				1DC3C14D3442663B52C92734FF83C068 /* Pods-GLJChoosePhoto_Example.modulemap */,
+				7ACE195C10A74B76C2477B652EA28FB0 /* Pods-GLJChoosePhoto_Example-acknowledgements.markdown */,
+				13A9A5A94955DFFB194EE158AD34E46F /* Pods-GLJChoosePhoto_Example-acknowledgements.plist */,
+				A4A348F6F26386C199256DD669433601 /* Pods-GLJChoosePhoto_Example-dummy.m */,
+				636DFC2744283C039C9A0BF1A80CCF8F /* Pods-GLJChoosePhoto_Example-frameworks.sh */,
+				013572A624EEC33BDFDD8715F72A2CDF /* Pods-GLJChoosePhoto_Example-resources.sh */,
+				44ED92593A1DE80A5B98A620B9E19E76 /* Pods-GLJChoosePhoto_Example-umbrella.h */,
+				97A57AB3009D11E3E1C928D8EAFC8383 /* Pods-GLJChoosePhoto_Example.debug.xcconfig */,
+				759CBE4E7EDBA49826AFAD396906A205 /* Pods-GLJChoosePhoto_Example.release.xcconfig */,
+			);
+			name = "Pods-GLJChoosePhoto_Example";
+			path = "Target Support Files/Pods-GLJChoosePhoto_Example";
+			sourceTree = "<group>";
+		};
+		D7CC97974E7FD0E7815529EC4C5BB858 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				350097A33E95D5A1C2EACE98EAF1E4F6 /* GLJChoosePhoto */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		DA110450BB61521A92E03BC04CD08B7C /* GLJChoosePhoto */ = {
+			isa = PBXGroup;
+			children = (
+				0967DECFBEB60AFF95A47DA0F8F17099 /* GLJChoosePhoto */,
+				D7CC97974E7FD0E7815529EC4C5BB858 /* Resources */,
+				92D0BCDFCF18BD984E3D897F84B7E35A /* Support Files */,
+			);
+			name = GLJChoosePhoto;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0F08E9D635FD80BEE468BFA28DBADE78 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B43EA677B4C532A69147ECDC5F5DFC1 /* Pods-GLJChoosePhoto_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD9B9C1B709C47D0C5E9120EF29B0585 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				085EC60B374AB1F1C53B7ECAE200C240 /* GLJBigPhotoCollentionView.h in Headers */,
+				34BA61E7E5252AE2D84736E22ABDEBEC /* GLJChoosePhoto-umbrella.h in Headers */,
+				FB43CEC79BBC04C40AE0229F28996774 /* GLJChoosePhotoManagerTool.h in Headers */,
+				3F8C92EA7A9298002BC5950087BA3A95 /* GLJChoosePhotoViewController.h in Headers */,
+				BCB51D229DFFB46428C06124E571E44D /* GLJPhotoModel.h in Headers */,
+				B2721D190038DCB1D4B5699D5EAEC692 /* GLJPhottoCell.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3560F8D5229976CE27B586FCD1B3759 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A9ED316B9BCCEE870758401EFC46D1B /* Pods-GLJChoosePhoto_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2748AD41D860F6AE516A88977C35F666 /* GLJChoosePhoto-GLJChoosePhoto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6C58D907640BFC81A6D087E7B57F975 /* Build configuration list for PBXNativeTarget "GLJChoosePhoto-GLJChoosePhoto" */;
+			buildPhases = (
+				70C36829EC6AAA3652F6D7EA297D091D /* Sources */,
+				8D4B87BB20DC183413C1008DA34BA38C /* Frameworks */,
+				EEEC027560FE6296DA8143B0F37ED473 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GLJChoosePhoto-GLJChoosePhoto";
+			productName = "GLJChoosePhoto-GLJChoosePhoto";
+			productReference = BAA97200584BE608EBDBAD90CE68458F /* GLJChoosePhoto.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		7174CE74C1880782D91CCE649A6E35E8 /* GLJChoosePhoto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C271AEE2E93758CEC3CA5AF60DC2B8D /* Build configuration list for PBXNativeTarget "GLJChoosePhoto" */;
+			buildPhases = (
+				CBDB4402094C9AB41B1C98104ABE6170 /* Sources */,
+				852280DF818DB442757CBEB41D656EF0 /* Frameworks */,
+				F7584022419DBAB35FEB8796A01D1946 /* Resources */,
+				BD9B9C1B709C47D0C5E9120EF29B0585 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2465EBA94AC284B69428A1B3AEF9F4CE /* PBXTargetDependency */,
+			);
+			name = GLJChoosePhoto;
+			productName = GLJChoosePhoto;
+			productReference = C0DD2AB7291315BF8CE9D5F4F237F9A1 /* GLJChoosePhoto.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		719119237CE385B33F0C11EC8ED58DF4 /* Pods-GLJChoosePhoto_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CE410B82955E89A8EB57EAB12073D5E /* Build configuration list for PBXNativeTarget "Pods-GLJChoosePhoto_Tests" */;
+			buildPhases = (
+				9772FC708B2F0B00D615E3B27BE91524 /* Sources */,
+				1C0B661C99853E6535E91E40A8720008 /* Frameworks */,
+				D3560F8D5229976CE27B586FCD1B3759 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-GLJChoosePhoto_Tests";
+			productName = "Pods-GLJChoosePhoto_Tests";
+			productReference = 12BD0D9D39728F60CA5ABAB52D67D5F7 /* Pods_GLJChoosePhoto_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AEE70A324701C7FCEB4A175DBB593FD2 /* Pods-GLJChoosePhoto_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B02FDB5D2F243EE51CFC3711ED1E3964 /* Build configuration list for PBXNativeTarget "Pods-GLJChoosePhoto_Example" */;
+			buildPhases = (
+				97161D62F2E8B80F4B50FB3777F35129 /* Sources */,
+				2234D244E3895CF30DEC1DC370FE8730 /* Frameworks */,
+				0F08E9D635FD80BEE468BFA28DBADE78 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF24DC48E1D88273F6F9B1DD8646B180 /* PBXTargetDependency */,
+			);
+			name = "Pods-GLJChoosePhoto_Example";
+			productName = "Pods-GLJChoosePhoto_Example";
+			productReference = A81DF945FD1972A148CCC0F2D0EC6513 /* Pods_GLJChoosePhoto_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C518C494C41CD0A55CCA773A1D82CDCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7174CE74C1880782D91CCE649A6E35E8 /* GLJChoosePhoto */,
+				2748AD41D860F6AE516A88977C35F666 /* GLJChoosePhoto-GLJChoosePhoto */,
+				AEE70A324701C7FCEB4A175DBB593FD2 /* Pods-GLJChoosePhoto_Example */,
+				719119237CE385B33F0C11EC8ED58DF4 /* Pods-GLJChoosePhoto_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEEC027560FE6296DA8143B0F37ED473 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E771A7EAB57C93BE76A914AB5F12E469 /* back.png in Resources */,
+				AD6FEBFACEC2F3A35127BBD1E904BD67 /* back@2x.png in Resources */,
+				85118269168D78EF7583D43046CC5530 /* back@3x.png in Resources */,
+				FE7295604A11CCC5F7DFCF2CB114DCFC /* icon_daixuan.png in Resources */,
+				9A42BC0CBA0B307C785EA132ADFE1E9E /* icon_daixuan@2x.png in Resources */,
+				3DC689B0EB9ED82CEA0DBF7676748C22 /* icon_daixuan@3x.png in Resources */,
+				E17D9B36B770FB53A87115D97D77FC54 /* icon_paizhao.png in Resources */,
+				36158B8474F096435845C96A10260E19 /* icon_paizhao@2x.png in Resources */,
+				6FB0DAFF1826E0DE0F9887180A31BB1D /* icon_paizhao@3x.png in Resources */,
+				1F4444EA279DD4472841DD4C2E6688CD /* icon_xuanzhong.png in Resources */,
+				0B6BAD8476F1C44C1F5C99D0EEA40809 /* icon_xuanzhong@2x.png in Resources */,
+				5D2A9140E866E3FD61332632FBE79DA8 /* icon_xuanzhong@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7584022419DBAB35FEB8796A01D1946 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA3E969ABAF3B07CC480950B3A26882B /* GLJChoosePhoto.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70C36829EC6AAA3652F6D7EA297D091D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97161D62F2E8B80F4B50FB3777F35129 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67B414A42DF26227D1FC21DD126AA4D8 /* Pods-GLJChoosePhoto_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9772FC708B2F0B00D615E3B27BE91524 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E69E985BE9F3D45EAC0AD6D9B1D7A765 /* Pods-GLJChoosePhoto_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBDB4402094C9AB41B1C98104ABE6170 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F44FB584330B3F948F5634160BFE5E30 /* GLJBigPhotoCollentionView.m in Sources */,
+				9F346A639405F4D1188E68B1746B6D99 /* GLJChoosePhoto-dummy.m in Sources */,
+				B9D30394CF9F65879DFCC0C43BFB8CBD /* GLJChoosePhotoManagerTool.m in Sources */,
+				A977561B26FF1619116F05F477A676E5 /* GLJChoosePhotoViewController.m in Sources */,
+				9286630D8D4E250911B8D0EEB8A2756F /* GLJChoosePhotoViewController.xib in Sources */,
+				324BA8707CAC55D0D42B88A9250E17B7 /* GLJPhotoModel.m in Sources */,
+				3904DFCB2F9B255D4A5687BF5160033A /* GLJPhottoCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2465EBA94AC284B69428A1B3AEF9F4CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "GLJChoosePhoto-GLJChoosePhoto";
+			target = 2748AD41D860F6AE516A88977C35F666 /* GLJChoosePhoto-GLJChoosePhoto */;
+			targetProxy = 1217EB0FA6C0AD2FB4E05EF6D988C282 /* PBXContainerItemProxy */;
+		};
+		AF24DC48E1D88273F6F9B1DD8646B180 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GLJChoosePhoto;
+			target = 7174CE74C1880782D91CCE649A6E35E8 /* GLJChoosePhoto */;
+			targetProxy = 78296CFFA1C3DDCAD3FF505FF82F3BB4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		32236B584538214F185B7251CBCA0A4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 759CBE4E7EDBA49826AFAD396906A205 /* Pods-GLJChoosePhoto_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GLJChoosePhoto_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GLJChoosePhoto_Example/Pods-GLJChoosePhoto_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GLJChoosePhoto_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		64EB27CA67DC07B14C3EE5D8CCE63E11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A209AD5E24D1B30473F657BAF1BEAB09 /* GLJChoosePhoto.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GLJChoosePhoto/GLJChoosePhoto-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GLJChoosePhoto/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GLJChoosePhoto/GLJChoosePhoto.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = GLJChoosePhoto;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		97A17089D5A920A3A471485A200DE42F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9D02F331C6B477CF168475484BA4C19 /* Pods-GLJChoosePhoto_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GLJChoosePhoto_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GLJChoosePhoto_Tests/Pods-GLJChoosePhoto_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GLJChoosePhoto_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9DCE50ADD1C7B399E0B7D895BD0E1108 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A209AD5E24D1B30473F657BAF1BEAB09 /* GLJChoosePhoto.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GLJChoosePhoto";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/GLJChoosePhoto/ResourceBundle-GLJChoosePhoto-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = GLJChoosePhoto;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AD82479A1550881FF9AEAB0FECD5D49B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A209AD5E24D1B30473F657BAF1BEAB09 /* GLJChoosePhoto.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GLJChoosePhoto/GLJChoosePhoto-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GLJChoosePhoto/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GLJChoosePhoto/GLJChoosePhoto.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = GLJChoosePhoto;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B6C58562ABE2183D892114BEBE72FC0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97A57AB3009D11E3E1C928D8EAFC8383 /* Pods-GLJChoosePhoto_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GLJChoosePhoto_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GLJChoosePhoto_Example/Pods-GLJChoosePhoto_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GLJChoosePhoto_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C0B29772E2F176150657C8767365A237 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A209AD5E24D1B30473F657BAF1BEAB09 /* GLJChoosePhoto.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GLJChoosePhoto";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/GLJChoosePhoto/ResourceBundle-GLJChoosePhoto-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = GLJChoosePhoto;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		FE2191AE5464B87829433418A2CEFBFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52BF889BB9102171365A0EF0548F6BF6 /* Pods-GLJChoosePhoto_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GLJChoosePhoto_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GLJChoosePhoto_Tests/Pods-GLJChoosePhoto_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GLJChoosePhoto_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C271AEE2E93758CEC3CA5AF60DC2B8D /* Build configuration list for PBXNativeTarget "GLJChoosePhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD82479A1550881FF9AEAB0FECD5D49B /* Debug */,
+				64EB27CA67DC07B14C3EE5D8CCE63E11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CE410B82955E89A8EB57EAB12073D5E /* Build configuration list for PBXNativeTarget "Pods-GLJChoosePhoto_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE2191AE5464B87829433418A2CEFBFC /* Debug */,
+				97A17089D5A920A3A471485A200DE42F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B02FDB5D2F243EE51CFC3711ED1E3964 /* Build configuration list for PBXNativeTarget "Pods-GLJChoosePhoto_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6C58562ABE2183D892114BEBE72FC0D /* Debug */,
+				32236B584538214F185B7251CBCA0A4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6C58D907640BFC81A6D087E7B57F975 /* Build configuration list for PBXNativeTarget "GLJChoosePhoto-GLJChoosePhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DCE50ADD1C7B399E0B7D895BD0E1108 /* Debug */,
+				C0B29772E2F176150657C8767365A237 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
