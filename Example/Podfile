@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GLJChoosePhoto_Example' do
+  pod 'GLJChoosePhoto', :path => '../'
+
+  target 'GLJChoosePhoto_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
