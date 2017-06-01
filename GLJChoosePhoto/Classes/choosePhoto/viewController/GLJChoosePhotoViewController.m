@@ -39,9 +39,8 @@
 
 -(instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil{
     
-    
-    NSLog( @"%@", [NSBundle mainBundle].bundlePath);
-    NSLog( @"%@", [NSBundle bundleForClass:[self class]].bundlePath);
+//    NSLog( @"%@", [NSBundle mainBundle].bundlePath);
+//    NSLog( @"%@", [NSBundle bundleForClass:[self class]].bundlePath);
     if (self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil]) {
         self.automaticallyAdjustsScrollViewInsets = NO;
         _maxSelectedPhotoCount = 6;

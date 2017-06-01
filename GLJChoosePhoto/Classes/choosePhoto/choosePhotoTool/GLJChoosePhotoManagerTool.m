@@ -74,7 +74,6 @@ static GLJChoosePhotoManagerTool *sharedObj = nil;
                 [group enumerateAssetsUsingBlock:^(ALAsset *result, NSUInteger index, BOOL *stop) {
                     if (result) {
                         
-                        NSLog(@"%@", [[[result defaultRepresentation] url] description]);
                         GLJPhotoModel *photoModel = [[GLJPhotoModel alloc] init];
                         photoModel.selected = NO;
                         photoModel.alasset = result;
@@ -97,7 +96,8 @@ static GLJChoosePhotoManagerTool *sharedObj = nil;
     self.backPhotoBlock = backPhotoBlock;
     self.type = type;
     [self searchAllPhotoWithAssets];
-    GLJChoosePhotoViewController * photo = [[GLJChoosePhotoViewController alloc] initWithNibName:@"GLJChoosePhotoViewController" bundle:[NSBundle bundleForClass:[self class]]];
+    NSBundle *xibBundle = [NSBundle bundleWithPath:[NSString stringWithFormat:@"%@/GLJChoosePhoto.bundle",[NSBundle bundleForClass:[self class]].bundlePath]];
+    GLJChoosePhotoViewController * photo = [[GLJChoosePhotoViewController alloc] initWithNibName:@"GLJChoosePhotoViewController" bundle:xibBundle];
     photo.maxSelectedPhotoCount = 9;
     
     switch (self.type) {

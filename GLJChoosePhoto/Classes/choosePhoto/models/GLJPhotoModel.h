@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <Photos/Photos.h>
+//#import <Photos/Photos.h>
 #import <AssetsLibrary/ALAsset.h>
 #import <AssetsLibrary/ALAssetsLibrary.h>
 #import <AssetsLibrary/ALAssetsGroup.h>
