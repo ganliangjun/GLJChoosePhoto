@@ -97,7 +97,7 @@ static GLJChoosePhotoManagerTool *sharedObj = nil;
     self.backPhotoBlock = backPhotoBlock;
     self.type = type;
     [self searchAllPhotoWithAssets];
-    GLJChoosePhotoViewController * photo = [[GLJChoosePhotoViewController alloc] initWithNibName:@"GLJChoosePhotoViewController" bundle:nil];
+    GLJChoosePhotoViewController * photo = [[GLJChoosePhotoViewController alloc] initWithNibName:@"GLJChoosePhotoViewController" bundle:[NSBundle bundleForClass:[self class]]];
     photo.maxSelectedPhotoCount = 9;
     
     switch (self.type) {

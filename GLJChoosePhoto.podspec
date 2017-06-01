@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GLJChoosePhoto'
-  s.version          = '0.0.2'
+  s.version          = '0.0.3'
   s.summary          = 'GLJChoosePhoto'
 
 # This description is used to generate tags and improve search results.
@@ -32,7 +32,7 @@ TODO: GLJChoosePhoto_new.
 
   s.source_files = 'GLJChoosePhoto/Classes/**/*'
   s.resource_bundles = {
-     'GLJChoosePhoto' => ['GLJChoosePhoto/Assets/*.png']
+     'GLJChoosePhoto' => ['GLJChoosePhoto/Assets/*']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
